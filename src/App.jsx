@@ -7,6 +7,7 @@ import Layout from './components/Layout/Layout'
 import Home from './components/Pages/Home/Home'
 import Login from './components/Login/Login'
 import Register from './components/Register/Register';
+import CrusorFollower from './StyleComponent/CrusorFollower/CrusorFollower';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
 
   return(
       <>
+      <CrusorFollower/>
       <RouterProvider router={router} />
       <ToastContainer position="bottom-right" />
     </>
